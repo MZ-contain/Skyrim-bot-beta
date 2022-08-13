@@ -8,7 +8,7 @@ from pyfiglet import Figlet
 from aiogram.dispatcher import FSMContext
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 from aiogram.dispatcher.filters.state import State, StatesGroup
-bot = Bot(token = '5553524618:AAH0fF1y7pHXTgjy56LvJAkHMpTwsbPJlc4')#Токен бота с расписанием
+bot = Bot(token = '')#Токен бота с расписанием
 dp = Dispatcher(bot)
 memstore = MemoryStorage()
 logging.basicConfig(level=logging.INFO)
